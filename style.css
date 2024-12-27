@@ -119,7 +119,7 @@ section{
 
 .about-content{
     width: 35%;
-    height: 270px;
+    height: 290px;
     background: #792AFF;
     padding-left: 40px ;
     padding-top: 40px;
@@ -159,4 +159,97 @@ section{
 
 .about-card img{
     padding-bottom: 20px;
+}
+.cloud{
+    background: url(img/cloud.png);
+    background-repeat: no-repeat;
+    width: 208px;
+    height: 200px;
+    transform: rotate(-15deg);
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    animation-name: planet-move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.skills-card{
+    background: url(img/form3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin: 20px;
+    padding-left: 20px;
+}
+.skills-card p{
+    color: #000;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 500px;
+    font-family: 'Comfortaa';
+}
+.moving-planet2{
+    background: url(img/moving-planet2.png);
+    background-repeat: no-repeat;
+    width: 230px;
+    height: 200px;
+    transform: rotate(-15deg);
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+    animation-name: planet-move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.works-block img{
+    margin: 0 20px;
+    width: 27%;
+    box-shadow: 
+      7px 7px 0 #000000;
+}
+
+.comments-block{
+    justify-content: space-evenly;
+    max-width: 1150px;
+    margin: auto;
+}
+.comments-card{
+    background-image: url(img/card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+.comments-card h3{
+    font-size: 18px;
+    font-family: 'Comfortaa';
+    padding: 10px;
+}
+.comments-card p{
+    font-size: 14px;
+    font-family: 'Comfortaa';
+    padding: 10px 20px;
+    text-align: center;
+}
+.comment{
+    background-image: url(img/comment.png);
+    background-repeat: no-repeat;
+    width: 327px;
+    height: 161px;
+    text-align: center;
 }
