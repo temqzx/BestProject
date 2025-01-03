@@ -347,4 +347,5 @@ nav{
 }
 .active{
     background-color: #BBFF2C;
- }
+    transform: scale(1.2);
+}
