@@ -349,6 +349,37 @@ nav{
     background-color: #BBFF2C;
     transform: scale(1.2);
 }
+.mobile-button{
+    display: none;
+    padding-top: 10px;
+    width: 40px;
+    position: absolute;
+    right: 20px;
+}
+.hide{
+    display: none;
+}
+.mobile-menu{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: #200153;
+    min-height: 100vh;
+}
+.mobile-nav{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-nav-links .nav-link{
+    margin-bottom: 30px;
+    width: 210px;
+    height: 50px;
+}
+
 
 @media (max-width: 1000px){
     .nav-links{
@@ -438,5 +469,27 @@ nav{
     .comment p{
         font-size: 15px;
         max-width: 290px;
+    }
+    .button{
+        width: 150px;
+        height: 40px;
+        z-index: 2;
+    }
+    .button a{
+        font-size: 15px;
+        text-align: center;
+    }
+    .swiper{
+        width: 400px;
+        height: 250px;
+    }
+    .swiper-slide {
+        margin-left: 20px
+    }
+    .mobile-button{
+        display: block;
+    }
+    .off-scroll{
+        overflow: hidden;
     }
 }
